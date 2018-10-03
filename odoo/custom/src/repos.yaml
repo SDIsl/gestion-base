@@ -26,3 +26,113 @@
         oca $ODOO_VERSION
     merges:
         - oca $ODOO_VERSION
+./community-data-files:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        oca: https://github.com/OCA/community-data-files.git
+    target:
+        oca $ODOO_VERSION
+    merges:
+        - oca $ODOO_VERSION
+
+./crm:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        oca: https://github.com/OCA/crm.git
+    target:
+        oca $ODOO_VERSION
+    merges:
+        - oca $ODOO_VERSION
+
+./project:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        oca: https://github.com/OCA/project.git
+    target:
+        oca $ODOO_VERSION
+    merges:
+        - oca $ODOO_VERSION
+
+./web:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        oca: https://github.com/OCA/web.git
+    target:
+        oca $ODOO_VERSION
+    merges:
+        - oca $ODOO_VERSION
+
+./partner-contact:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        oca: https://github.com/OCA/partner-contact.git
+    target:
+        oca $ODOO_VERSION
+    merges:
+        - oca $ODOO_VERSION
+./muk_base:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        mukm: https://github.com/muk-it/muk_base.git
+    target:
+        mukm $ODOO_VERSION
+    merges:
+        - mukm $ODOO_VERSION
+
+./muk_web:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        mukm: https://github.com/muk-it/muk_web.git
+    target:
+        mukm $ODOO_VERSION
+    merges:
+        - mukm $ODOO_VERSION
+
+./geolocation:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        geo: https://github.com/SDIsl/geolocation.git
+    target:
+        geo v1120171028
+    merges:
+        - geo v1120171028
+./server-tools:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        srt: https://github.com/OCA/server-tools.git
+    target:
+        srt $ODOO_VERSION
+    merges:
+        - srt $ODOO_VERSION
+
+./server-ux:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        sux: https://github.com/OCA/server-ux.git
+    target:
+        sux $ODOO_VERSION
+    merges:
+        - sux $ODOO_VERSION
+
+
+./social:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        oca: https://github.com/OCA/social.git
+    target:
+        oca $ODOO_VERSION
+    merges:
+        - oca $ODOO_VERSION
+
+

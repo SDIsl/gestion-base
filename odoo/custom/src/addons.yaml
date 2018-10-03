@@ -1,0 +1,30 @@
+l10n-spain:
+ - "*"
+community-data-files:
+ - "*"
+crm:
+ - "*"
+project:
+ - "*"
+web:
+ - "*"
+partner-contact:
+ - "*"
+muk_base:
+ - "*"
+muk_web:
+ - "*"
+geolocation:
+ - "web_google_maps"
+server-tools:
+ - "database_cleanup"
+ - "module_auto_update"
+ - "auto_backup"
+ - "setup"
+server-ux:
+ - "mass_editing"
+
+social:
+ - "*"
+
+
