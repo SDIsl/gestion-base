@@ -9,7 +9,7 @@
     'summary': """
         Get API-KEY from settings to geolocalize() method.""",
     'license':'GPL-3',
-    'depends':['sdi_menu_settings','web_google_maps'],
+    'depends':['web_google_maps'],
     'installable': True,
     'auto_install':True,
 }
