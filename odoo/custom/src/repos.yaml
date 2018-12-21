@@ -101,9 +101,9 @@
     remotes:
         geo: https://github.com/SDIsl/geolocation.git
     target:
-        geo v1120171028
+        geo $ODOO_VERSION
     merges:
-        - geo v1120171028
+        - geo $ODOO_VERSION
 ./server-tools:
     defaults:
         depth: $DEPTH_DEFAULT
