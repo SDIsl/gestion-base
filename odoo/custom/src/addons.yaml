@@ -15,7 +15,7 @@ muk_base:
 muk_web:
  - "*"
 geolocation:
- - "web_google_maps"
+ - "*"
 server-tools:
  - "database_cleanup"
  - "module_auto_update"
