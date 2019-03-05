@@ -136,3 +136,13 @@
         - oca $ODOO_VERSION
 
 
+./sdi-addons:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        sdi: https://github.com/sdisl/sdi-addons.git
+    target:
+        sdi $ODOO_VERSION
+    merges:
+        - sdi $ODOO_VERSION
+

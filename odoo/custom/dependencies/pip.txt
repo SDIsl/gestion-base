@@ -5,5 +5,4 @@ unidecode
 requests
 xlsxwriter
 cachetools
-pdfconv
 httplib2

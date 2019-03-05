@@ -26,5 +26,6 @@ server-ux:
 
 social:
  - "*"
-
+sdi-addons:
+ - "*"
 
