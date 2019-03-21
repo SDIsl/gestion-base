@@ -301,7 +301,7 @@
     defaults:
         depth: $DEPTH_DEFAULT
     remotes:
-        oca: https://github.com/OCA/stock-logistics-reportin.git
+        oca: https://github.com/OCA/stock-logistics-reporting.git
     target:
         oca $ODOO_VERSION
     merges:
