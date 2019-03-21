@@ -29,3 +29,54 @@ social:
 sdi-addons:
  - "*"
 
+account-invoice-reporting:
+- "*"
+
+account-financial-reporting:
+- "*"
+
+account-financial-tools:
+- "*"
+
+account-payment:
+- "*"
+
+account-reconcile:
+- "*"
+
+bank-payment:
+- "*"
+
+bank-statement-import:
+- "*"
+
+credit-control:
+- "*"
+
+delivery-carrier:
+- "*"
+
+manufacture:
+- "*"
+
+mis-builder:
+- "*"
+
+product-attribute:
+- "*"
+
+reporting-engine:
+- "*"
+
+sale-workflow:
+- "*"
+
+stock-logistics-barcode:
+- "*"
+
+stock-logistics-reporting:
+- "*"
+
+stock-logistics-warehouse:
+- "*"
+
