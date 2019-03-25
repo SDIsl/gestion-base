@@ -17,12 +17,9 @@ muk_web:
 geolocation:
  - "*"
 server-tools:
- - "database_cleanup"
- - "module_auto_update"
- - "auto_backup"
- - "setup"
+ - "*"
 server-ux:
- - "mass_editing"
+ - "*"
 
 social:
  - "*"
@@ -79,4 +76,5 @@ stock-logistics-reporting:
 
 stock-logistics-warehouse:
 - "*"
-
+account_invoicing:
+- "*"
