@@ -78,3 +78,5 @@ stock-logistics-warehouse:
 - "*"
 account_invoicing:
 - "*"
+queue:
+- "*"
